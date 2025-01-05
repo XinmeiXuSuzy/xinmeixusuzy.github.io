@@ -320,6 +320,7 @@ nav a:hover {
 .english-name {
     color:#1f0309 ;
     font-size: 4rem;
+    font-weight: 700;
 }
 
 .chinese-name {
@@ -327,7 +328,7 @@ nav a:hover {
     padding-top: 1.8rem;
     padding-left: 2rem;
     color: #7d4153;
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .intro {
