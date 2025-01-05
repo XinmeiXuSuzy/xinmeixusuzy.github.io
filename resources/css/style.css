@@ -305,7 +305,7 @@ nav a:hover {
 
 .about-text {
     width: 50%;
-    padding-top: 12rem;
+    padding-top: 16rem;
     text-align: right;
     padding-right: 2rem;
 }
@@ -462,4 +462,48 @@ footer {
 
 .logos .fa-envelope {
     margin-top: 6px;
+}
+
+@media only screen and (max-width: 90rem) {
+    .about-body {
+        display: block;
+        flex-direction: column;
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .photo-section {
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .photo-section img {
+        min-height: 20rem;
+        min-width: 15rem;
+        margin: 0 auto;
+    }
+
+    .about-text {
+        flex-direction: column;
+        padding-top: 0;
+        margin: 0 auto;
+    }
+    .name {
+        display: block;
+        text-align: center;
+    }
+    .english-name {
+        font-size: 3rem;
+        padding-left: 2.5rem;
+        padding-top: 0;
+    }
+    .intro {
+        font-size: 1rem;
+        text-align: center;
+    }
+    .about-text {
+        padding-left: 1rem;
+        padding-bottom: 4rem;
+        margin: 0 auto;
+    }
 }
