@@ -174,7 +174,6 @@ nav a:hover {
     line-height: 1.3;
     text-shadow: #441f29 0 0 8px;
     transition: 120ms ease-in 20ms;
-
 }
 
 .project-note {
@@ -296,17 +295,17 @@ nav a:hover {
 .about-body {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .about .photo-section {
     width: 45%;
     padding: 8rem 8rem 6rem;
-
 }
 
 .about-text {
     width: 50%;
-    padding-top: 17rem;
+    padding-top: 12rem;
     text-align: right;
     padding-right: 2rem;
 }
@@ -319,16 +318,20 @@ nav a:hover {
 
 .english-name {
     color:#1f0309 ;
-    font-size: 4rem;
+    font-size: 4.5rem;
     font-weight: 700;
+    font-family: 'Roboto';
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #cb979c;
 }
 
 .chinese-name {
     font-size: 1.6rem;
-    padding-top: 1.8rem;
+    padding-top: 2rem;
     padding-left: 2rem;
-    color: #7d4153;
+    color: #ba8ea0;
     font-weight: 300;
+    text-shadow: #1f0309 0 0 8px;
 }
 
 .intro {
