@@ -254,10 +254,92 @@ nav a:hover {
 }
 
 /* About */
+.skills {
+    width: 100%;
+    height: auto;
+    background-color: #ba8ea0;
+}
+
+.skills h2 {
+    font-size: 2.8rem;
+    color: #441f29;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    padding: 7rem;
+    text-align: center;
+    letter-spacing: 3px;
+    font-weight: 600;
+    text-shadow: #62384555 0 0 10px;
+}
 
 .about {
     width: 100%;
     height: auto;
+    background-color: #4f2732;
+}
+
+.about-title {
+    width: 100%;
+    display: none;
+}
+
+.about h2 {
+    color: #d6a9bc;
+    text-transform: uppercase;
+    padding: 6rem;
+    font-size: 2.8rem;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.about-body {
+    width: 100%;
+    display: flex;
+}
+
+.about .photo-section {
+    width: 45%;
+    padding: 8rem 8rem 6rem;
+
+}
+
+.about-text {
+    width: 50%;
+    padding-top: 17rem;
+    text-align: right;
+    padding-right: 2rem;
+}
+
+.name {
+    padding-bottom: 1rem;
+    display: flex;
+    margin-bottom: 1.5rem;
+}
+
+.english-name {
+    color:#1f0309 ;
+    font-size: 4rem;
+}
+
+.chinese-name {
+    font-size: 1.6rem;
+    padding-top: 1.8rem;
+    padding-left: 2rem;
+    color: #7d4153;
+    font-weight: 600;
+}
+
+.intro {
+    font-size: 1.2rem;
+    color:#c89297;
+    font-family: 'Georgia';
+    line-height: 140%;
+    text-align: justify;
+}
+
+.photo img {
+    width: 100%;
 }
 
 .cloud-section {
