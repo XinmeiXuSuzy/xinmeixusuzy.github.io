@@ -340,6 +340,17 @@ nav a:hover {
     text-shadow: #d2a0ab 0 0 8px;
 }
 
+.intro a {
+    color: #e0b5b9;
+    text-decoration: none;
+}
+
+.intro a:hover {
+    color: #edd9db;
+    text-shadow: 0 0 1px #c1a5b0;
+}
+
+
 .intro {
     font-size: 1rem;
     color:#c89297;
