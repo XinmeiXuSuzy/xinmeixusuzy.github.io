@@ -61,7 +61,6 @@ nav a {
 
 nav a:hover {
     color: #e9ced9;
-    font-size: 1.2rem;
     text-shadow: #e9ced955 0 0 8px;
 }
 
@@ -391,7 +390,7 @@ nav a:hover {
     font-family: 'PT Serif';
     color: #f5d5d8dd;
     font-size: 1.7rem;
-    line-height: 140%;
+    line-height: 150%;
     display: flex;
     align-items: center;
     justify-content: center;
