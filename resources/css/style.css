@@ -364,6 +364,56 @@ nav a:hover {
     box-shadow: -1.5rem 1.5rem #dd9da066;
 }
 
+.skills {
+    padding-bottom: 6rem;
+}
+
+.skill-container {
+    display: block;
+    place-items: center;
+    margin-top: -2rem;
+}
+
+.skill-block {
+    border: #440b22 solid 2.5px;
+    width: 80%;
+    display: flex;
+    border-radius: 10px;
+    margin-bottom: 2rem;
+}
+
+.skill-head {
+    padding: 2rem;
+    background-color: #7d4455;
+    width: 23%;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    font-family: 'PT Serif';
+    color: #f5d5d8dd;
+    font-size: 1.7rem;
+    line-height: 140%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-style: italic;
+}
+
+.skill-content {
+    padding: 4rem;
+    font-size: 1.3rem;
+    width: 77%;
+    background-color: #e5bfc8;
+    border-bottom-right-radius: 8px;
+    border-top-right-radius: 8px;
+    font-family: 'Fira Code', monospace;
+    transition: 100ms ease-out 40ms;
+}
+
+.skill-content:hover {
+    background-color: #f2d2d9;
+}
+
 .cloud-section {
     width: 100%;
     padding: 4rem 9rem;
